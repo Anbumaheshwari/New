@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root
+{
+    --black: #333;
+    --light-color: #cdaa7c;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    left: 30;
+}
+*
+
+{
+    font-family: 'Californian FB', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: lightgrey;
+    outline:none;
+    background-color:#3C3150;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html
+{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/*navbar style start*/
+.container .box
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 2px rgba(242,242,242);
+}
+.container .box p
+{
+    font-weight: 100;
+    font-size: 3.1rem;
+    color: #fff;
+}
+.highlight
+{
+    color: #30B1C2;
+}
+.container .box
+{
+    border:lightgrey;
+}
+.container .box .navbar a
+{
+    font-size: 1.8rem;
+    padding: .5rem 1.5rem;
+    color: #fff;
+    border: .1rem solid transparent;
+}
+.navbar a:hover,
+.navbar .HOME-active
+{
+    background:#30B1C2;
+    border-radius: 5rem;
+    color: var(--bg-color);
+    transition: background 0.5s;
+}
+.container .icons i
+{
+    cursor: pointer;
+    margin-right: .5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    text-align: left;
+    font-size: 1.7rem;
+    color: #fff;
+}
+.container .icons i:hover
+{
+    color:#30B1C2;
+}
+.container2
+{
+    max-width: 2224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    
+}
+.title
+{
+    margin-bottom: 7rem;
+}
+.product-details
+{
+    display: flex;
+    gap: 10px;
+}
+.column
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.photo img
+{
+  border-radius: 5px;
+  object-fit: cover;
+}
+.star-rating 
+{
+    color: #f8ce0b;
+    font-size: 2.5rem;
+    margin-left: 60px;
+    
+}
+.review
+{
+    font-size: 1.8rem;
+    color: aliceblue;
+    margin-left: 60px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.product-name {
+    font-size: 3.8rem;
+    margin-bottom: 7rem;
+    font-weight: bold;
+    margin-left: 60px;
+    color: aliceblue;
+    
+  }
+.Price
+{
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 14px;
+   
+}
+h1
+{
+    font-size: 2.3rem;
+    color: white;
+    font-weight: 100;
+    margin-left: 60px;
+    padding-top: 4px;
+}
+h2
+{
+    font-size: 2.3rem;
+    font-weight: 100;
+    color: white;
+    margin-left: 60px;
+    padding-top: 4px;
+}
+p
+{
+   font-size: 1.6rem;
+    color: lightgoldenrodyellow;
+    margin-left: 30px;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+.underline-text
+{
+    text-decoration:underline;
+}
+hr
+{
+    border:none;
+    border-top: 1px solid#ffffffd6;
+    margin: 10px 0;
+}
+.horizontal-line
+{
+    border:none;
+    border-top: 1px solid #ffffffd6;
+    margin: 20px 0;
+    margin-left: 60px;
+}
+.round-btn1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 60%; /* This makes the button round */
+    background-color: #0056b3; /* Change this to your desired button color */
+    color: white;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 2px;
+    outline: none; /* Removes the default button outline */
+}
+
+.round-btn1:hover {
+    background-color: #007bff; /* Change this to your desired button color on hover */
+}
+.round-btn2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* This makes the button round */
+    background-color: magenta; /* Change this to your desired button color */
+    color: white;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 2px;
+    outline: none; /* Removes the default button outline */
+}
+.round-btn2:hover {
+    background-color: rgb(255, 124, 255); /* Change this to your desired button color on hover */
+}
+.round-btn3 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* This makes the button round */
+    background-color: rgb(10, 152, 152); /* Change this to your desired button color */
+    color:white;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+    outline: none; /* Removes the default button outline */
+}
+
+.round-btn3:hover 
+{
+    background-color:rgb(42, 230, 230);
+}
+.round-btn4 
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* This makes the button round */
+    background-color: green; /* Change this to your desired button color */
+    color: white;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+    outline: none; /* Removes the default button outline */
+}
+.round-btn4:hover 
+{
+    background-color: rgb(93, 231, 93);
+}
+.round-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 60%; /* This makes the button round */
+    background-color: none; /* Change this to your desired button color */
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 2px;
+    outline: 2px solid white;
+}
+
+.round-btn:hover {
+    background-color: hsl(244, 82%, 47%); /* Change this to your desired button color on hover */
+}
+.round-btn5 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* This makes the button round */
+    background-color: none; /* Change this to your desired button color */
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 2px;
+    outline: 2px solid white;
+}
+
+.round-btn5:hover {
+    background-color: hsl(244, 82%, 47%); /* Change this to your desired button color on hover */
+}
+.round-btn6{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* This makes the button round */
+    background-color: none; /* Change this to your desired button color */
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 2px;
+    outline: 2px solid white;
+}
+
+.round-btn6:hover{
+    background-color: hsl(244, 82%, 47%); /* Change this to your desired button color on hover */
+}
+.round-btn7{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* This makes the button round */
+    background-color: none; /* Change this to your desired button color */
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 25PX;
+    
+    cursor: pointer;
+ outline: 2px solid white;
+}
+
+.round-btn7:hover {
+    background-color: hsl(244, 82%, 47%); /* Change this to your desired button color on hover */
+}
+p
+{
+   font-size: 1.6rem;
+    color: lightgoldenrodyellow;
+    margin-left: 30px;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+.underline-text1
+{
+    text-decoration:underline;
+}
+hr
+{
+    border:none;
+    border-top: 1px solid#ffffffd6;
+    margin: 10px 0;
+}
+.horizontal-line1
+{
+    border:none;
+    border-top: 1px solid #ffffffd6;
+    margin: 20px 0;
+    margin-left: 8px;
+}
